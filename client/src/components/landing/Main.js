@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainAuth from './MainAuth';
 import Welcome from './Welcome';
+import Service from './Service';
 
 class Main extends Component {
   constructor(props) {
@@ -14,7 +15,8 @@ class Main extends Component {
     const { auth } = this.state;
     return (
       <div>
-        {auth ? <MainAuth auth={auth}/> : <Welcome auth={auth}/>}
+        <Welcome/>
+        <Service/>
       </div>
     );
   }
