@@ -8,7 +8,6 @@ class Welcome extends Component {
     const { auth } = this.props;
     return (
       <div>
-        <h3>Welcome Page</h3>
         <Slider/>
         <MainAuth auth={auth} />
       </div>
