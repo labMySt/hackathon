@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "./landing/Header";
+import Header from "./landing/header/Header";
 import Footer from "./landing/footer/Footer";
 
 class App extends Component {
