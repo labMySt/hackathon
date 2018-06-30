@@ -1,47 +1,37 @@
 import React from 'react';
-import { Control, Form, actions } from 'react-redux-form';
+import axios from 'axios'
+class SingUp extends React.Component{
 
-class SignUp extends React.Component {
-  handleSubmit(user) {
-    // Do whatever you like in here.
-    // If you connect the UserForm to the Redux store,
-    // you can dispatch actions such as:
-    // dispatch(actions.submit('user', somePromise));
-    // etc.
-  }
-  render() {
-    return (
-      <Form
-        model="forms"
-        onSubmit={(user) => this.handleSubmit(user)}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <h2 className="display-4 mr-4">Sign Up</h2>
+    render(){
+    return(
+      <div>
+        <div style = {{height: "90px", backgroundColor: "#325C6A"}}></div>
+      <div className="container">
+        <div className="col-sm-6 col-sm-offset-3">
+          <h1><span className="fa fa-sign-in"></span> Зареєструватись</h1>
+        <form action="/auth/signup" method="post">
               <div className="form-group">
-                <label htmlFor="forms.nick">Nick or Company:</label>
-                <Control.text className="form-control" model="forms.nick" id="forms.nick" />
+                <label>Email</label>
+                <input type="text" className="form-control" name="email"/>
               </div>
               <div className="form-group">
-                <label htmlFor="forms.email">Email:</label>
-                <Control.text className="form-control" model="forms.email" id="forms.email" />
+                <label>Пароль</label>
+                <input type="password" className="form-control" name="password"/>
               </div>
-                <div className="form-group">
-                  <label htmlFor="forms.password">Password:</label>
-                  <Control.text className="form-control" model="forms.password" id="forms.password" /></div>
-                <div className="form-group">
-                  <label htmlFor="forms.password">Confirm Password:</label>
-                  <Control.text className="form-control" model="forms.password" id="forms.password" />
-                </div>
-                <button type="submit" className="btn btn-lg btn-info mr-4">Submit</button>
-           </div>
-         </div>
-       </div>
-
-      </Form>
-    );
+              <div className="form-group">
+                <label>Підтвердження пароля</label>
+              <input type="password" className="form-control" name="confirmPassword"/>
+              </div>
+              <button type="submit" className="btn btn-lg btn-info mr-2">Зареєструватись</button>
+        </form>
+        <hr/>
+        <p>Вже маєш екаунт? <a href="/lognin">Увійти</a></p>
+        <p>Або <a href="/">на головну</a></p>
+      </div>
+    </div>
+  </div>
+    )
   }
 }
 
-export default SignUp;
+export default SingUp;

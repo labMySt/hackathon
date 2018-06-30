@@ -19,7 +19,7 @@ class Header extends Component {
                 <li className><a href="#about">Пройти тест</a></li>
                 <li className><a href="#testimonial">Про нас</a></li>
                 <li className><a href="#contact">Контакти</a></li>
-                <li className><a href="#contact">Увійти/Реєстрація</a></li>
+                <li className><a href="/signin">Увійти/Реєстрація</a></li>
               </ul>
             </div>
           </div>

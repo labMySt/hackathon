@@ -40,16 +40,15 @@ passport.deserializeUser(function (user, done) {
 passport.use('local-signup', new LocalStrategy({
         usernameField : 'email',
         passwordField : 'password',
-        nickField: 'nick',
         confirmpasswordField : 'confirmPassword',
         passReqToCallback : true // allows us to pass back the entire request to the callback
     },
-    function(req, email, password, nick, done) {
+    function(req, email, password, done) {
         process.nextTick(function() {
           User.findOne({where: {email: email}})
           .then(user => {
             if (!user)
-             return User.create({ email: email, nick:nick, password: User.generateHash(password)})
+             return User.create({ email: email, password: User.generateHash(password)})
              .then(newUser => {return done(null, newUser);
              });
             return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
