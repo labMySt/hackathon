@@ -36,20 +36,20 @@ class Service extends Component {
             <div className="col-md-4 col-sm-4">
               <div className="service-info">
                 <div className="icon">
-                  <i className="fa fa-user-md" />
+                <i class="fa fa-compress" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
-                  <h4>Medical Counseling</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4>Знайти партнера</h4>
+                  <p>Ти підприємець та не знаєш де знайти підготовлених спеціалістів? Ти це навчальний заклад який планує влаштувати своїх студентів. Це можливо зробити у нас.</p>
                 </div>
               </div>
               <div className="service-info">
                 <div className="icon">
-                  <i className="fa fa-medkit" />
+                  <i class="fa fa-rocket" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
-                  <h4>Premium Healthcare</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h4>Просувай свою справу</h4>
+                  <p>Основновна наша аудиторія - молодь, котра хоче змінювати себе, змінювати світ. Це рушійна сила, що допоможе тобі продвинути твої ідеї.</p>
                 </div>
               </div>
             </div>
