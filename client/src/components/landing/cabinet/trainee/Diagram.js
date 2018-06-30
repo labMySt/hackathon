@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import './Diagram.css';
 
 class Diagram extends Component {
   render() {
     return (
       <div>
-          <h3>Diagram Page</h3>
+          Щоб отримати результат потрыбно пройти тест
+          <img src="img/diagram.jpg" className="diagram-img"/>
       </div>
     );
   }
