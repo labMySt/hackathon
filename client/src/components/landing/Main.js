@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MainAuth from "./MainAuth";
 import Welcome from "./Welcome";
+import Service from "./Service";
 import Partners from "./Partners";
 
 class Main extends Component {
@@ -15,7 +16,8 @@ class Main extends Component {
     const { auth } = this.state;
     return (
       <div>
-        <div>{auth ? <MainAuth auth={auth} /> : <Welcome auth={auth} />}</div>
+        <Welcome />
+        <Service />
         <Partners />
       </div>
     );
