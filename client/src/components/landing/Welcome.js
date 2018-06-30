@@ -1,16 +1,33 @@
 import React, { Component } from 'react';
-import Slider from './Slider';
-import MainAuth from './MainAuth';
 
 class Welcome extends Component {
 
   render() {
-    const { auth } = this.props;
     return (
       <div>
-        <h3>Welcome Page</h3>
-        <Slider/>
-        <MainAuth auth={auth} />
+        <section id="banner" className="banner">
+        <div className="bg-color">
+          <div className="container">
+            <div className="row">
+              <div className="banner-info">
+                <div className="banner-logo text-center">
+                </div>
+                <div className="banner-text text-center">
+                  <h1 className="white">Досвід - краще ніж відгук</h1>
+                  <p>Пройди практику до навчання.
+                     <br />
+                     Вибери практику у провідних компаніях твого міста, спробуй нову професію і тільки потім навчайся.
+                   </p>
+                  <a href="#contact" className="btn btn-appoint">Знайти подію.</a>
+                </div>
+                <div className="overlay-detail text-center">
+                  <a href="#service"><i className="fa fa-angle-down" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       </div>
     );
   }
