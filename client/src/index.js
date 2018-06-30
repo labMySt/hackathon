@@ -18,6 +18,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import App from "./components/App";
 import Main from "./components/landing/Main";
 import SignUp from "./components/landing/SignUp";
+import LognIn from "./components/landing/LognIn";
 import Testing from "./components/testing/Testing";
 
 import Aboutus from "./components/aboutus/Aboutus";
@@ -31,7 +32,8 @@ ReactDOM.render(
       <App>
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route path="/signup" component={SignUp} />
+          <Route path="/signin" component={SignUp} />
+          <Route path="/lognin" component={LognIn} />
           <Route path="/test" component={Testing} />
           <Route exact path="/aboutus" component={Aboutus} />
         </Switch>

@@ -9,34 +9,33 @@ class Footer extends Component {
             <div className="row">
               <div className="col-md-4 col-sm-4 marb20">
                 <div className="ftr-tle">
-                  <h4 className="white no-padding">About Us</h4>
+                  <h4 className="white no-padding">Про Нас</h4>
                 </div>
                 <div className="info-sec">
                   <p>
-                    Praesent convallis tortor et enim laoreet, vel consectetur
-                    purus latoque penatibus et dis parturient.
+                    Група молодих ентузіастів котрі прагнуть допомогти кожному знайти себе в світі повному можливостей.
                   </p>
                 </div>
               </div>
               <div className="col-md-4 col-sm-4 marb20">
                 <div className="ftr-tle">
-                  <h4 className="white no-padding">Quick Links</h4>
+                  <h4 className="white no-padding">Швидкі посилання</h4>
                 </div>
                 <div className="info-sec">
                   <ul className="quick-info">
                     <li>
-                      <a href="index.html">
-                        <i className="fa fa-circle" />Home
+                      <a href="#banner">
+                        <i className="fa fa-circle" />На головну
                       </a>
                     </li>
                     <li>
-                      <a href="#service">
-                        <i className="fa fa-circle" />Service
+                      <a href="/test">
+                        <i className="fa fa-circle" />Пройти тест
                       </a>
                     </li>
                     <li>
-                      <a href="#contact">
-                        <i className="fa fa-circle" />Appointment
+                      <a href="/ivents">
+                        <i className="fa fa-circle" />Події
                       </a>
                     </li>
                   </ul>
@@ -44,7 +43,7 @@ class Footer extends Component {
               </div>
               <div className="col-md-4 col-sm-4 marb20">
                 <div className="ftr-tle">
-                  <h4 className="white no-padding">Follow us</h4>
+                  <h4 className="white no-padding">Спільнота</h4>
                 </div>
                 <div className="info-sec">
                   <ul className="social-icon">
@@ -70,7 +69,7 @@ class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                © Copyright Medilab Theme. All Rights Reserved
+                © імені Валентина Стрикала
                 <div className="credits">
                   {/*
           All the links in the footer should remain intact.
@@ -78,8 +77,8 @@ class Footer extends Component {
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
         */}
-                  Designed by{" "}
-                  <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+                  Спроектований{" "}
+                  <a href="https://intita.com/">В-Стрикало.com</a>
                 </div>
               </div>
             </div>
