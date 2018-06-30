@@ -5,8 +5,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div className="bg-color header-div" id="header">
-      <nav className="navbar navbar-default navbar-fixed-top">
+      <nav className="navbar navbar-default navbar-fixed-top" id="header">
         <div className="container">
           <div className="col-md-12">
             <div className="navbar-header">
@@ -26,7 +25,6 @@ class Header extends Component {
           </div>
         </div>
       </nav>
-      </div>
     );
   }
 }
