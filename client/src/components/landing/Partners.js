@@ -21,7 +21,7 @@ class Partners extends Component {
               <div className="testi-info">
                 {/* User Image */}
                 <a href="#">
-                  <img src="img/ria.png" alt className="img-responsive" />
+                  <img src="img/ria.png" className="img-responsive" />
                 </a>
                 {/* User Name */}
                 <h3>
@@ -40,7 +40,7 @@ class Partners extends Component {
               <div className="testi-info">
                 {/* User Image */}
                 <a href="#">
-                  <img src="img/int.png" alt className="img-responsive" />
+                  <img src="img/int.png" className="img-responsive" />
                 </a>
                 {/* User Name */}
                 <h3>
@@ -59,7 +59,7 @@ class Partners extends Component {
               <div className="testi-info">
                 {/* User Image */}
                 <a href="#">
-                  <img src="img/rb.png" alt className="img-responsive" />
+                  <img src="img/rb.png" className="img-responsive" />
                 </a>
                 {/* User Name */}
                 <h3>

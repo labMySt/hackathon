@@ -16,7 +16,7 @@ class Service extends Component {
             <div className="col-md-4 col-sm-4">
               <div className="service-info">
                 <div className="icon">
-                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
                   <h4>Вибирай навчальний заклад</h4>
@@ -25,7 +25,7 @@ class Service extends Component {
               </div>
               <div className="service-info">
                 <div className="icon">
-                <i class="fa fa-address-card" aria-hidden="true"></i>
+                <i className="fa fa-address-card" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
                   <h4>Забронюй практику</h4>
@@ -36,7 +36,7 @@ class Service extends Component {
             <div className="col-md-4 col-sm-4">
               <div className="service-info">
                 <div className="icon">
-                <i class="fa fa-compress" aria-hidden="true"></i>
+                <i className="fa fa-compress" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
                   <h4>Знайти партнера</h4>
@@ -45,7 +45,7 @@ class Service extends Component {
               </div>
               <div className="service-info">
                 <div className="icon">
-                  <i class="fa fa-rocket" aria-hidden="true"></i>
+                  <i className="fa fa-rocket" aria-hidden="true"></i>
                 </div>
                 <div className="icon-info">
                   <h4>Просувай свою справу</h4>

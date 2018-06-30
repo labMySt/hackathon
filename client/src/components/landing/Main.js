@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import MainAuth from "./MainAuth";
 import Welcome from "./Welcome";
 import Service from "./Service";
 import Partners from "./Partners";
