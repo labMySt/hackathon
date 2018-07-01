@@ -60,10 +60,11 @@
     width: 10px;
 }
 
-.trainee-res {
-    margin: -70px 0 0 0;
-}
-
 .trainee-profile-diagram {
     margin: 30px 0 0 0;
+}
+
+.trainee-profile-cogs-right > button:hover {
+    background-color: #85a2ff;
+    color: #ffff;
 }
