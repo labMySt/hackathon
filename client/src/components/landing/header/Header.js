@@ -5,33 +5,30 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
+      <div>
+
       <nav className="navbar navbar-default navbar-fixed-top" id="header">
         <div className="container">
           <div className="col-md-12">
             <div className="navbar-header">
             <div className="headel-slogan">
-              who are you?
+              <a href="/">who are you?</a>
             </div>
             </div>
             <div className="collapse navbar-collapse navbar-right" id="myNavbar">
               <ul className="nav navbar-nav">
-                <li className="active"><a href="#banner">Головна</a></li>
-<<<<<<< HEAD
-                <li className><a href="#about">Пройти тест</a></li>
-                <li className><a href="#testimonial">Про нас</a></li>
-                <li className><a href="#contact">Контакти</a></li>
-                <li className><a href="/signin">Увійти/Реєстрація</a></li>
-=======
-                <li><a href="#about">Пройти тест</a></li>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/test">Пройти тест</a></li>
                 <li><a href="#testimonial">Про нас</a></li>
-                <li><a href="#contact">Контакти</a></li>
-                <li><a href="#contact">Увійти/Реєстрація</a></li>
->>>>>>> dev
+                <li><a href="/trainee_cabinet">Кабінет</a></li>
+                <li><a href="/signin">Увійти/Реєстрація</a></li>
+
               </ul>
             </div>
           </div>
         </div>
       </nav>
+      </div>
     );
   }
 }
