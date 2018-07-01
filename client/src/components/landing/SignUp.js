@@ -5,8 +5,8 @@ class SingUp extends React.Component{
     render(){
     return(
       <div>
-        <div style = {{height: "90px", backgroundColor: "#325C6A"}}></div>
-      <div className="container">
+        <div style = {{height: "90px"}}></div>
+    <div className="container" >
         <div className="col-sm-6 col-sm-offset-3">
           <h1><span className="fa fa-sign-in"></span> Зареєструватись</h1>
         <form action="/auth/signup" method="post">
@@ -29,7 +29,8 @@ class SingUp extends React.Component{
         <p>Або <a href="/">на головну</a></p>
       </div>
     </div>
-  </div>
+    </div>
+
     )
   }
 }

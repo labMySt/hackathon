@@ -4,8 +4,8 @@ class LognIn extends React.Component{
       render(){
       return(
         <div>
-          <div style = {{height: "90px", backgroundColor: "#325C6A"}}></div>
-        <div className="container">
+          <div style = {{height: "90px"}}></div>
+        <div className="container" style = {{height: "65vh"}}>
           <div className="col-sm-6 col-sm-offset-3">
             <h1><span className="fa fa-sign-in"></span> Увійти</h1>
             <form action="/auth/login" method="post">
@@ -25,6 +25,7 @@ class LognIn extends React.Component{
          </div>
       </div>
     </div>
+
       )
     }
   }
