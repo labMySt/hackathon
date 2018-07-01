@@ -93,9 +93,11 @@ class TraineeCabinet extends Component {
                             </div>
                             <hr />
                             <div className="service-info trainee-profile-cogs-right">
-                                <button className="btn">
-                                    Пройти тест Голланда
-                                </button>
+                                <a href="/test">
+                                  <button className="btn">
+                                      Пройти тест Голланда
+                                  </button>
+                                </a>
                                 <div className="trainee-gaps" />
                                 <button className="btn trainee-button-cogs">
                                     <i className="fa fa-cogs fa-2x" />

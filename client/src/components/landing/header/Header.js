@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="col-md-12">
             <div className="navbar-header">
             <div className="headel-slogan">
-              who are you?
+              <a href="/">who are you?</a>
             </div>
             </div>
             <div className="collapse navbar-collapse navbar-right" id="myNavbar">
@@ -20,7 +20,7 @@ class Header extends Component {
                 <li><a href="/">Головна</a></li>
                 <li><a href="/test">Пройти тест</a></li>
                 <li><a href="#testimonial">Про нас</a></li>
-                <li><a href="#contact">Контакти</a></li>
+                <li><a href="/trainee_cabinet">Кабінет</a></li>
                 <li><a href="/signin">Увійти/Реєстрація</a></li>
 
               </ul>
