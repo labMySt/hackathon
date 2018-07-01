@@ -21,6 +21,7 @@ import SignUp from "./components/landing/SignUp";
 import LognIn from "./components/landing/LognIn";
 import Testing from "./components/testing/Testing";
 import TraineeCabinet from "./components/landing/cabinet/trainee/TraineeCabinet";
+import Jobs from "./components/jobs/Jobs";
 
 import Aboutus from "./components/aboutus/Aboutus";
 
@@ -36,6 +37,7 @@ ReactDOM.render(
           <Route path="/signin" component={SignUp} />
           <Route path="/lognin" component={LognIn} />
           <Route path="/test" component={Testing} />
+          <Route path="/jobs" component={Jobs} />
           <Route path="/trainee_cabinet" component={TraineeCabinet} />
           <Route exact path="/aboutus" component={Aboutus} />
         </Switch>
