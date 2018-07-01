@@ -93,6 +93,14 @@ class TraineeCabinet extends Component {
                             </div>
                             <hr />
                             <div className="service-info trainee-profile-cogs-right">
+                                <button className="btn">
+                                    Проходження практики
+                                </button>
+                                <div className="trainee-gaps" />
+                                <button className="btn">
+                                    Навчальні заклади
+                                </button>
+                                <div className="trainee-gaps" />
                                 <a href="/test">
                                   <button className="btn">
                                       Пройти тест Голланда
